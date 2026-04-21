@@ -272,6 +272,8 @@ const defaultPropsMap: Record<string, string[]> = {
   ],
 
   UIGradient: ["Color", "Transparency", "Offset", "Rotation", "Enabled"],
+
+  UIShadow: ["BlurRadius", "Color", "Offset", "Spread", "Transparency", "ZIndex"],
 };
 
 export function activate(context: vscode.ExtensionContext) {
