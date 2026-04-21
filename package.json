@@ -322,6 +322,14 @@
               "Offset",
               "Rotation",
               "Enabled"
+            ],
+            "UIShadow": [
+              "BlurRadius", 
+              "Color", 
+              "Offset", 
+              "Spread", 
+              "Transparency", 
+              "ZIndex"
             ]
           },
           "description": "Map from Roblox class name to a list of prop names to suggest. Example: { \"TextLabel\": [\"Text\", \"TextColor3\"], \"Frame\": [\"Size\", \"Position\"] }"
